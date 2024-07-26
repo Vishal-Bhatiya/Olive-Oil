@@ -1,0 +1,139 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+        font-family: "PT Serif", serif;
+       
+        font-style: normal;
+      
+}
+
+
+body{
+    background-color: #AFAFAF;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.container{
+    min-height: 90vh;
+    width: 90vw;
+    background-color: white;
+}
+
+.nav{
+    height: 90px;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 500px;
+     /* background-color: azure; */
+    color: rgba(0, 0, 0, 0.87);
+}
+
+
+.right{
+    width: 50vw;
+    height: 25rem;
+    /* margin-top: 50px; */
+    /* background-color: aquamarine; */
+    margin-left: 100px;
+    
+}
+
+.green{
+    color: #527002;
+}
+
+
+.yellow{
+    color: #C9B400;
+}
+
+.mehrun {
+    color: #5F570D  ;
+    padding-top: 30px;
+    width: 100%;
+    padding-bottom: 30px;
+    font-size: large    ;
+    /* background-color: #C9B400; */
+}
+hr{
+   width: 100px;
+   height: 2px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.hr{
+    display: flex;
+    font-size: large;
+
+}
+.heading{
+    font-size: 30px;
+}
+
+
+.right .spn-2 :nth-child(1){
+    
+    width: 150px;
+    height: 50px;
+    background-color: #9D8C02;
+    color: white;
+    font-size: large;
+    border: none;
+}
+.right .spn-2 :nth-child(2){
+    color: black;
+    border: none;
+    background-color: white;
+    width: 120px;
+    height: 50px;
+    font-size: large;
+}
+
+
+.right ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+    color: #5F570D;
+}
+
+.left{
+    
+    width: 50vw;
+    /* background-color: #527002; */
+    
+   
+}
+.left img{
+    height: 400px;
+    padding-left: 60px;
+
+}
+.content{
+    display: flex;
+    margin-top: 20px;
+   
+}
+
